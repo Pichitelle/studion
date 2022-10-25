@@ -2,9 +2,7 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+  }
 
 :root {
     font-family: 'montserrat', sans-serif;
@@ -118,6 +116,7 @@ ul {
 }
 
 .slide__copy h6 {
+    margin-top: 0;
     font-size: 0.9375rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -125,6 +124,7 @@ ul {
 }
 
 .slide__copy h2 {
+    margin-top: 0;
     margin-bottom: 2.5rem;
     font-size: 6.25rem;
     text-transform: uppercase;
