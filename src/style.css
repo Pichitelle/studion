@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;500;700;900 &família= Roboto & display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
 
 * {
     box-sizing: border-box;  
@@ -99,7 +102,7 @@ ul {
 
 .slide {
     position: relative;
-    /*height: calc(100vh - 7.75rem);*/
+    /*height: calc(90vh - 7.75rem);*/
 }
 
 .slide__background-image {
@@ -233,7 +236,6 @@ ul {
     align-items: center;
     justify-items: end;
     min-height: 80vh;
-    
 }
 
 .quote__copy {
@@ -257,7 +259,6 @@ ul {
     text-transform: uppercase;
     letter-spacing: -.1875rem;
     margin: 1.875rem 0;
-
 }
 
 .quote__copy h2 span {
@@ -268,5 +269,4 @@ ul {
     color: var(--color-copy);
     border-color: var(--color-copy);
     background-color: unset;
-
 }
